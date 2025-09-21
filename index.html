@@ -5,72 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uncle Pizza Steve - YouTube</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
+    /* Reset */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #1a1a1a, #333);
+      color: #fff;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-    }
-    header {
-      background: #ff0000;
-      color: white;
-      width: 100%;
-      padding: 20px 0;
+      height: 100vh;
       text-align: center;
-      font-size: 2rem;
-      font-weight: bold;
+      padding: 20px;
     }
-    main {
-      max-width: 900px;
-      margin: 30px 20px;
-      text-align: center;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      color: #ff0000;
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
     }
-    iframe {
-      width: 100%;
-      max-width: 560px;
-      height: 315px;
-      border: none;
-      margin: 20px 0;
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #ddd;
     }
+
     a.button {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
+      padding: 15px 30px;
       background: #ff0000;
       color: white;
       text-decoration: none;
+      font-size: 1.2rem;
       font-weight: bold;
-      border-radius: 6px;
-      transition: background 0.3s;
+      border-radius: 50px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
     }
+
     a.button:hover {
       background: #cc0000;
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.4);
     }
+
     footer {
-      margin-top: 50px;
-      padding: 20px;
-      text-align: center;
-      color: #555;
+      position: absolute;
+      bottom: 15px;
       font-size: 0.9rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <header>Uncle Pizza Steve - YouTube Channel</header>
-  <main>
-    <h2>Watch My Latest Videos</h2>
-    <iframe 
-      src="https://www.youtube.com/embed?listType=user_uploads&list=UCog3s567IpCMt5oeLiBv8_Q" 
-      allowfullscreen>
-    </iframe>
-    <br>
-    <a href="https://www.youtube.com/channel/UCog3s567IpCMt5oeLiBv8_Q" class="button" target="_blank">
-      Visit Full Channel
-    </a>
-  </main>
+  <h1>Uncle Pizza Steve</h1>
+  <p>Welcome to my official YouTube channel page!</p>
+  <a href="https://www.youtube.com/channel/UCog3s567IpCMt5oeLiBv8_Q" class="button" target="_blank">
+    Visit My Channel
+  </a>
   <footer>© 2025 Uncle Pizza Steve</footer>
 </body>
 </html>
